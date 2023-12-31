@@ -1,0 +1,9 @@
+    {
+        "files.eol":"\n",
+        "editor.tabSize": 4,
+
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+            // sempre que salvar o nosso arquivo vai tentar resolver o problema de lint
+        }
+    }
