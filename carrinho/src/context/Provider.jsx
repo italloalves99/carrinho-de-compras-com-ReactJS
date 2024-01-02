@@ -6,7 +6,9 @@ function Provider({ children}) {
 
     const [name, setName] = useState('Manual do Dev');
 
-    const value = [name, setName]
+    const value = 
+        {name,
+        setName}
     return ( 
         <AppContext.Provider value={ value }>
             { children}
