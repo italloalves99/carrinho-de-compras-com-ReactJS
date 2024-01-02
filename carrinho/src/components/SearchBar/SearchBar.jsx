@@ -8,7 +8,7 @@ function SearchBar() {
 
     return (  
         <form className='search-bar'>
-            <input type="search" value={searchValue} placeholder="Buscar Produtos" className="search__input" onChange={(target) => setSearchValue(target.value)} required/> 
+            <input type="search" value={searchValue} placeholder="Buscar Produtos" className="search__input" onChange={(event) => setSearchValue(event.target.value)} required/> 
                 {searchValue}
             <button type="submit" className="search__button"><CiSearch /></button>
         </form>
