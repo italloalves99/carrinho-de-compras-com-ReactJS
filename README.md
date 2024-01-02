@@ -20,4 +20,5 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado antes de prosseg
 
 ## Como Iniciar o Projeto
 Abra o Terminal e execute o seguinte comando:
+cd carrinho 
 npm start
